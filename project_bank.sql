@@ -49,9 +49,9 @@ CREATE TABLE IF NOT EXISTS `account_details` (
 --
 
 INSERT INTO `account_details` (`id`, `UserID`, `AccountType`, `AccountNo`, `Branch`, `IFSCCode`, `Card_Type`, `Card_account`) VALUES
-(1, 'Selva', 'Saving Account', '786543092', 'Ashok Nagar', 'CDBL0009', 'Saving Account', 'Saving Account'),
-(2, 'Selva', 'Current Account', '543092786', 'Ashok Nagar', 'CDBL0009', 'Current Account', 'Current Account'),
-(3, 'Selva', 'Credit Account', 'XXXX XXXX XXXX 1255', '', '', 'Visa', 'Card');
+(1, 'Dharsini', 'Saving Account', '786543092', 'Ashok Nagar', 'CDBL0009', 'Saving Account', 'Saving Account'),
+(2, 'Dharsini', 'Current Account', '543092786', 'Ashok Nagar', 'CDBL0009', 'Current Account', 'Current Account'),
+(3, 'Dharsini', 'Credit Account', 'XXXX XXXX XXXX 1255', '', '', 'Visa', 'Card');
 
 -- --------------------------------------------------------
 
@@ -83,8 +83,8 @@ CREATE TABLE IF NOT EXISTS `pass_book` (
 --
 
 INSERT INTO `pass_book` (`id`, `Account_ID`, `AccountName`, `AccountNo`, `trans_type`, `amount_minus`, `amount_add`, `closing_on_trans`, `beneficiary_name`, `beneficiary_accno`, `remarks`, `trans_Date`, `trans_date_time`) VALUES
-(1, 1, 'Selvakumar', 786543092, 'Credit', 0, 10000, 10000, 'kathir', 0, 'First Credit', '2022-05-20', '2022-05-20 10:00:00'),
-(2, 1, 'Selvakumar', 786543092, 'Debit', 1000, 0, 9000, 'kathir', 55888788, 'Emergency fund', '2022-06-01', '2022-06-01 11:00:00');
+(1, 1, 'Dharshini', 786543092, 'Credit', 0, 10000, 10000, 'kathir', 0, 'First Credit', '2022-05-20', '2022-05-20 10:00:00'),
+(2, 1, 'Dharshini', 786543092, 'Debit', 1000, 0, 9000, 'kathir', 55888788, 'Emergency fund', '2022-06-01', '2022-06-01 11:00:00');
 
 -- --------------------------------------------------------
 
@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS `user_details` (
 --
 
 INSERT INTO `user_details` (`id`, `Username`, `UserID`, `Password`, `datetime`) VALUES
-(1, 'Selva Kumar', 'Selva', '1137', '');
+(1, 'Dharshini', 'Dharsini', '1137', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
