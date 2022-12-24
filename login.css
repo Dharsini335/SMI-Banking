@@ -1,0 +1,42 @@
+.maindiv{
+  background-color: rgb(229, 252, 255);
+}
+
+.Page-logo193{
+    height: 15vmin;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .Page-testContents{
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: 500%;
+    font-family: 'Bahnschrift Condensed';
+    font-weight: bold;
+    position: absolute;
+  }
+  .Page-textContent2{
+    color: rgb(240, 108, 37);
+    text-shadow:4px 4px 0 #E79C10,-4px -4px 0 #D53A33;
+  }
+  
+
+
+  
+  .Login-cardView{
+    position: absolute;
+    box-shadow: 0 5px 25px 0 rgba(0,0,0,0.08);
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 60%;
+    margin-left: 50%;
+    margin-top: 1%;
+    border-radius: 2.5%;
+    padding-left: 3.9%;
+    padding-right: 3.9%;
+    padding-top: 2%;
+  }
+  .Login-cardView h2{
+  font-family:'Bahnschrift Condensed' ;
+  color: rgb(53, 91, 117);
+  }
